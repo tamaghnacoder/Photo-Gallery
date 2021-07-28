@@ -1,0 +1,138 @@
+<html>
+
+<head>
+  <title> Photo Gallery
+  </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<h3>
+  <div style="position:sticky;top:0;z-index:99999;background-color:black;">
+    <div class="menu1" id="mynavbar1">
+      <span><a href="#home">Home</a></span>
+      &nbsp;
+      <span><a href="#grids">Grid View</a></span>
+      &nbsp;
+      <span><a href="#slides">Slide View</a></span>
+      &nbsp;
+      <span><a href="#contact">Contacts</a></span>
+      &nbsp;
+    </div>
+  </div>
+</h3>
+
+<body>
+  <div class="container">
+    <section id="home">
+      <div class="page-header"></div>
+      <h2 class="text-capitallize"></h2>
+      <img src="https://cdn2.scratch.mit.edu/get_image/gallery/5064598_200x130.png" id="img1" class="img-responsive">
+    </section>
+    <hr style="width:100%">
+    <section id="grids">
+      <h2>Grid Gallery</h2>
+      <br>
+      <div class="row">
+        <img class="img2" src="https://www.irishtimes.com/polopoly_fs/1.3101809.1497028489!/image/image.jpg_gen/derivatives/ratio_1x1_w1200/image.jpg">
+        <img class="img2" src="https://i.pinimg.com/originals/f8/5c/4e/f85c4ef7e57461f37003c3849c3260bf.jpg">
+        <img class="img2" src="https://i.insider.com/60772a1742061500181757bc?width=700">
+        <img class="img2" src="https://upload.wikimedia.org/wikipedia/en/a/a3/Lordvoldemort.jpg">
+      </div>
+      <div class="row">
+        <img class="img2" src="https://www.looper.com/img/gallery/whatever-happened-to-dolores-umbridge-from-harry-potter/intro-1572910266.jpg">
+        <img class="img2" src="https://i.pinimg.com/originals/fb/a0/d6/fba0d6ee6423153780a10d9c27735b4e.jpg">
+        <img class="img2" src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-harry-potter-jason-isaacs.jpg">
+        <img class="img2" src="https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/dumbledore-michael-gambon.jpg">
+      </div>
+    </section>
+    <br>
+    <br>
+    <hr style="width: 100%">
+    <!-- left and right controls-->
+    <section id="slides"></section>
+    <h2>Sliding Gallery</h2>
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <!-- wrapper for slides-->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="img-responsive" src="https://www.irishtimes.com/polopoly_fs/1.3101809.1497028489!/image/image.jpg_gen/derivatives/ratio_1x1_w1200/image.jpg" alt="Harry Potter" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Harry Potter</h3>
+            <p></p>
+          </div>
+        </div>
+        <!--HP-->
+        <div class="item">
+          <img class="img-responsive" src="https://i.pinimg.com/originals/f8/5c/4e/f85c4ef7e57461f37003c3849c3260bf.jpg
+" alt="Harry Potter" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Ronald Weasley</h3>
+            <p></p>
+          </div>
+        </div>
+        <!--RW-->
+        <div class="item">
+          <img class="img-responsive" src="https://i.insider.com/60772a1742061500181757bc?width=700
+" alt="Hermione Granger" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Hermione Granger</h3>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/en/a/a3/Lordvoldemort.jpg
+" alt="Voldemort" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Voldemort</h3>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="img-responsive" src="https://www.looper.com/img/gallery/whatever-happened-to-dolores-umbridge-from-harry-potter/intro-1572910266.jpg
+" alt="Dolores Umbridge" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Dolores Umbridge</h3>
+            <p></p>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img class="img-responsive" src="https://i.pinimg.com/originals/fb/a0/d6/fba0d6ee6423153780a10d9c27735b4e.jpg" alt="Fred Weasley" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Fred Weasley</h3>
+            <p></p>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img class="img-responsive" src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters_opt/p-harry-potter-jason-isaacs.jpg" alt="Luicius Malfoy" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Luicius Malfoy</h3>
+            <p></p>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img class="img-responsive" src="https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/dumbledore-michael-gambon.jpg" alt="Albus Percival Wulfric Brian Dumbledore" style="width:100%">
+          <div class="carousel-caption">
+            <h3>Albus Percival Wulfric Brian Dumbledore</h3>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <!--left and right control-->
+      <a class="left carousel-control" href="#mycarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a>
+      <a class="right carousel-control" href="#mycarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
+
+    </div>
+  </div>
+</body>
+
+</html>
